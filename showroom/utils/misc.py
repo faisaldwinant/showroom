@@ -32,7 +32,7 @@ def format_name(root_dir, time_str, room, ext):
     rootdir = root_dir
     dir_format = '{root}/{date}/{group}'
     tempdir = '{root}/active'.format(root=rootdir)
-    name_format = '{date} Showroom - {handle} {time}{count}.{ext}'
+    name_format = 'Showroom {handle} {date} {time}{count}.{ext}'
 
     # count = 0
     # count_str = '_{:02d}'
